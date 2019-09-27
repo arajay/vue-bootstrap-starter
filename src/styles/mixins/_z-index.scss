@@ -1,0 +1,12 @@
+$layers: (
+  'top'         : 10,
+  'header'      : 1,
+  'hidden'      : -10
+);
+
+@function z($layer) {
+    @if not map-has-key($layers, $layer) {
+        @warn 'No layer found for `#{$layer}`';
+    }
+    @return map-get($layers, $layer);
+}

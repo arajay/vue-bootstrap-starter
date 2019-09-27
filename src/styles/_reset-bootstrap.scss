@@ -1,0 +1,12 @@
+// make muted text inherit its container's color
+.text-muted {
+  color: currentColor !important;
+  opacity: 0.5;
+}
+// text light can be problematic when applied to a content wrapper
+.text-light {
+  a, h1, h2, h3, h4, h5, h6,
+  .h1, .h2, .h3, .h4, .h5, .h6 {
+    color: currentColor;
+  }
+}
