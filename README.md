@@ -1,4 +1,6 @@
-After using the Vue CLI to create a new project, copy files from this project for quick startup.
+This is a pre-configured Vue project I saved to reduce the amount of setup and configuration when starting a new Vue project. 
+
+Just copy files from this repo into your new project after using the Vue CLI to create it.
 
 Includes:
 * tsconfig
